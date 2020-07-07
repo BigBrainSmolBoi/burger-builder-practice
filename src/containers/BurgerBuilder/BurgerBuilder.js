@@ -119,7 +119,7 @@ class BurgerBuilder extends Component {
       disableInfo[key] = disableInfo[key] <= 0;
     }
 
-    let orderSummary = nul;
+    let orderSummary = null;
 
     let burger = <Spinner />;
 
